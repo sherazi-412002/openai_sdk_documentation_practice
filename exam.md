@@ -69,3 +69,11 @@ Q-If an LLM return output that failed the declare output Schema the SDK raise?
 
 ### Extra material of class 
 --> Modelsettings
+--> dynamic instruction ---> why we provide agent
+
+
+
+
+## Extra Material (Related to Github)
+git rm --cached .env
+git commit -m "Remove .env from version control"

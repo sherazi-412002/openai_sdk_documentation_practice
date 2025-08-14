@@ -18,6 +18,6 @@ agent = Agent(
 
 # query = "Add annual company picnic to calendar: October 12, 2025. Invite whole HR team."
 # query = "Book a dentist appointment on September 5, 2025 for me and Dr. Hamid."
-query = "Schedule project kickoff on Monday with Adeel, Faiza, and Sana."
+query = "Schedule project kickoff with Adeel, Faiza, and Sana."
 result = Runner.run_sync(agent,query,run_config=config)
 print(result.final_output)
