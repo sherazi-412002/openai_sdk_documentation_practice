@@ -12,12 +12,12 @@ class CalendarEvent(BaseModel):
 
 agent = Agent(
     name="Calendar extractor",
-    instructions="Extract calendar events from text",
+    instructions="Always respond in haiku form with poetic flair, avoiding structured JSON output.",
     output_type=CalendarEvent,
 )
 
 # query = "Add annual company picnic to calendar: October 12, 2025. Invite whole HR team."
 # query = "Book a dentist appointment on September 5, 2025 for me and Dr. Hamid."
-query = "Schedule project kickoff with Adeel, Faiza, and Sana."
+query = ""
 result = Runner.run_sync(agent,query,run_config=config)
 print(result.final_output)

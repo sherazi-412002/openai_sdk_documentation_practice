@@ -64,6 +64,7 @@ Q-If an LLM return output that failed the declare output Schema the SDK raise?
 9. Guardrials
 10. Prompt Engeniering (Both Google and Open AI)
 11. Pydantic and Markdown 
+12. Run Config
 
 
 
