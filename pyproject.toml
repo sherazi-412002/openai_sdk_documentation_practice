@@ -8,4 +8,5 @@ dependencies = [
     "agentsdk-gemini-adapter>=0.1.0",
     "dotenv>=0.9.9",
     "openai-agents>=0.0.19",
+    "rich>=14.1.0",
 ]
