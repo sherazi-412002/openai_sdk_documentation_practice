@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from openai import AsyncOpenAI
 from dotenv import load_dotenv
 import os
-from agents import Agent, FunctionTool, RunContextWrapper, OpenAIChatCompletionsModel, RunResult, ToolCallOutputItem, set_tracing_disabled, Runner
+from agents import Agent, OpenAIChatCompletionsModel, RunResult, ToolCallOutputItem, set_tracing_disabled, Runner
 
 set_tracing_disabled(True)
 load_dotenv()
