@@ -1,10 +1,15 @@
-from agents import Agent, Runner,trace
+from agents import Agent, Runner,trace,ModelSettings
+
 from agentsdk_gemini_adapter import config
 import asyncio
+
 
 async def main():
     agent = Agent(
         name="Assistant",
+        model_settings=ModelSettings(
+            presence_penalty=1
+        )
         # instructions="Always respond in haiku form with poetic flair, avoiding structured JSON output.",
     )
 
